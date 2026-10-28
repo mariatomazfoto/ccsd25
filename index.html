@@ -46,6 +46,12 @@ h1{margin:0;line-height:.9;display:flex;align-items:baseline;gap:.12em;flex-wrap
 .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 .btn:focus-visible{outline:3px solid var(--p4);outline-offset:2px}
 .hint{font-size:13px;color:var(--muted);margin:0}
+details.actions{display:block}
+details.actions summary{list-style:none}
+details.actions summary::-webkit-details-marker{display:none}
+.parts{display:flex;flex-direction:column;gap:8px;margin-top:12px;max-width:420px}
+.btn.part{justify-content:space-between}
+.btn.part span{font-weight:600;color:var(--muted);font-size:13px}
 .feat{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(8px,1.5vw,16px);align-items:start;max-width:1000px;margin:0 auto;width:100%}
 .sec{margin:0;font-family:var(--display);font-weight:700;font-size:22px;display:flex;align-items:center;gap:12px}
 .sec::after{content:"";flex:1;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--p1),var(--p4),var(--p9),var(--p7),var(--p8),transparent)}
@@ -87,10 +93,13 @@ footer{text-align:center;color:var(--muted);font-size:13px}
       <h1 aria-label="25 anos"><span class="n25">25</span><span class="anos">anos</span></h1>
       <p class="org">Centro de Convivência Santa Dorotéia</p>
       <p class="sub"><span class="count">127 fotos.</span> Toque em uma foto para ver em tela cheia e baixar na qualidade original.</p>
-      <div class="actions">
-        <a class="btn primary" id="all" href="https://github.com/dudasilva121513-arch/ccsd25/releases/download/fotos/CCSD25_todas_as_fotos.zip" download>Baixar todas as fotos</a>
-        <p class="hint">Arquivo .zip com as 127 fotos (354 MB). Melhor baixar no Wi‑Fi.</p>
-      </div>
+      <details class="actions" id="all">
+        <summary class="btn primary">Baixar todas as fotos</summary>
+        <div class="parts">
+          <p class="hint">Para facilitar no celular, as 127 fotos foram divididas em 5 arquivos .zip. Baixe cada parte (de preferência no Wi‑Fi).</p>
+          <a class="btn part" href="zip/CCSD25_fotos_parte1.zip" download>Parte 1 <span>fotos 1–30 · 80 MB</span></a><a class="btn part" href="zip/CCSD25_fotos_parte2.zip" download>Parte 2 <span>fotos 31–60 · 79 MB</span></a><a class="btn part" href="zip/CCSD25_fotos_parte3.zip" download>Parte 3 <span>fotos 61–92 · 79 MB</span></a><a class="btn part" href="zip/CCSD25_fotos_parte4.zip" download>Parte 4 <span>fotos 93–116 · 77 MB</span></a><a class="btn part" href="zip/CCSD25_fotos_parte5.zip" download>Parte 5 <span>fotos 117–127 · 39 MB</span></a>
+        </div>
+      </details>
     </div>
   </header>
   <section class="feat" id="feat" aria-label="Fotos em destaque"></section>
