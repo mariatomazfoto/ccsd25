@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>25 anos do CCSD</title>
+<meta name="description" content="Galeria de fotos do espetáculo de 25 anos do Centro de Convivência Santa Dorotéia.">
+<meta property="og:title" content="25 anos do CCSD">
+<meta property="og:description" content="Galeria de fotos do espetáculo. Toque em uma foto para ver e baixar.">
+<meta property="og:image" content="logo.webp">
+<meta name="robots" content="noindex">
+<link rel="icon" href="logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Pacifico&family=Nunito:wght@400;600;800&display=swap">
+<style>
+:root{
+  --bg:#fbfafc; --surface:#ffffff; --fg:#241f33; --muted:#6b6580; --line:#e8e4f0;
+  --accent:#e2731c; --accent-ink:#ffffff; --scrim:rgba(16,13,28,.96);
+  --p1:#7a2d8f; --p2:#d681c4; --p3:#1f4f93; --p4:#3c95db; --p5:#e0453a; --p6:#ef9db3; --p7:#e9b820; --p8:#e2731c; --p9:#64b13d;
+  --display:"Fredoka","Nunito",system-ui,sans-serif; --script:"Pacifico","Brush Script MT",cursive;
+  --body:"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{--bg:#14111f;--surface:#1e1a2c;--fg:#f4f1fa;--muted:#aba4c0;--line:#2f2942;--accent:#f28b3a;--accent-ink:#1c1206;color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;
+  padding:env(safe-area-inset-top,0px) max(16px,env(safe-area-inset-right,0px)) env(safe-area-inset-bottom,0px) max(16px,env(safe-area-inset-left,0px))}
+img{max-width:100%}
+[hidden]{display:none!important}
+.petals{height:8px;border-radius:0 0 8px 8px;background:linear-gradient(90deg,var(--p1) 0 11.1%,var(--p2) 0 22.2%,var(--p3) 0 33.3%,var(--p4) 0 44.4%,var(--p9) 0 55.5%,var(--p7) 0 66.6%,var(--p8) 0 77.7%,var(--p5) 0 88.8%,var(--p6) 0);max-width:1240px;margin:0 auto}
+.wrap{max-width:1240px;margin:0 auto;padding-block:32px 64px;display:flex;flex-direction:column;gap:32px}
+header{display:flex;align-items:center;gap:clamp(18px,4vw,40px);flex-wrap:wrap}
+.logo{flex:none;width:clamp(120px,22vw,190px);background:#fff;border-radius:28px;padding:14px;box-shadow:0 10px 30px -14px rgba(60,40,110,.35)}
+.logo img{display:block;width:100%;height:auto}
+.title{display:flex;flex-direction:column;gap:6px;min-width:0;flex:1 1 260px}
+h1{margin:0;line-height:.9;display:flex;align-items:baseline;gap:.12em;flex-wrap:wrap}
+.n25{font-family:var(--display);font-weight:700;font-size:clamp(84px,17vw,180px);letter-spacing:-.03em;
+  background:linear-gradient(115deg,var(--p1),var(--p2) 22%,var(--p4) 42%,var(--p9) 60%,var(--p7) 76%,var(--p8) 88%,var(--p5));-webkit-background-clip:text;background-clip:text;color:transparent}
+.anos{font-family:var(--script);font-size:clamp(40px,7.5vw,78px)}
+.org{margin:0;font-family:var(--display);font-weight:500;font-size:clamp(17px,2.4vw,22px)}
+.sub{margin:0;color:var(--muted)}
+.count{font-variant-numeric:tabular-nums;color:var(--fg);font-weight:800}
+.actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:8px}
+.btn{font:inherit;font-weight:800;border-radius:999px;padding:12px 22px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer;display:inline-flex;align-items:center;gap:8px;text-decoration:none;-webkit-tap-highlight-color:transparent}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn:focus-visible{outline:3px solid var(--p4);outline-offset:2px}
+.hint{font-size:13px;color:var(--muted);margin:0}
+.feat{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(8px,1.5vw,16px);align-items:start;max-width:1000px;margin:0 auto;width:100%}
+.sec{margin:0;font-family:var(--display);font-weight:700;font-size:22px;display:flex;align-items:center;gap:12px}
+.sec::after{content:"";flex:1;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--p1),var(--p4),var(--p9),var(--p7),var(--p8),transparent)}
+.grid{columns:3 96px;column-gap:6px}
+@media (min-width:700px){.grid{columns:4 140px;column-gap:8px}}
+@media (min-width:1050px){.grid{columns:6 150px}}
+.tile{--ring:var(--p4);display:block;width:100%;margin:0 0 6px;padding:0;border:0;background:var(--line);border-radius:8px;overflow:hidden;cursor:zoom-in;break-inside:avoid;transition:box-shadow .25s}
+@media (min-width:700px){.grid .tile{margin-bottom:8px}}
+.feat .tile{margin:0;border-radius:12px}
+.tile:nth-child(9n+1){--ring:var(--p1)}.tile:nth-child(9n+2){--ring:var(--p2)}.tile:nth-child(9n+3){--ring:var(--p3)}.tile:nth-child(9n+4){--ring:var(--p4)}.tile:nth-child(9n+5){--ring:var(--p9)}.tile:nth-child(9n+6){--ring:var(--p7)}.tile:nth-child(9n+7){--ring:var(--p8)}.tile:nth-child(9n+8){--ring:var(--p5)}.tile:nth-child(9n){--ring:var(--p6)}
+.tile img{display:block;width:100%;height:auto;transition:transform .35s ease}
+.tile:hover{box-shadow:0 0 0 3px var(--ring)}
+.tile:hover img{transform:scale(1.03)}
+.tile:focus-visible{outline:3px solid var(--ring);outline-offset:2px}
+footer{text-align:center;color:var(--muted);font-size:13px}
+.lb{position:fixed;inset:0;z-index:50;background:var(--scrim);display:flex;flex-direction:column;color:#f4f1fa;
+  padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
+.lb-top{display:flex;justify-content:space-between;align-items:center;padding:10px 16px}
+.lb-n{font-variant-numeric:tabular-nums;font-size:13px;letter-spacing:.08em;opacity:.8}
+.close{background:transparent;border:0;color:#fff;font-size:32px;line-height:1;cursor:pointer;padding:4px 10px}
+.lb-stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;position:relative;padding:0 8px}
+.lb-stage img{max-width:100%;max-height:100%;object-fit:contain;border-radius:4px}
+.nav{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:46px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;font-size:24px;cursor:pointer}
+.nav.prev{left:12px}.nav.next{right:12px}
+@media (max-width:640px){.nav{display:none}}
+.lb-bottom{display:flex;flex-direction:column;align-items:center;gap:8px;padding:12px 16px 18px}
+.lb .btn{background:#f28b3a;border-color:#f28b3a;color:#1c1206}
+.lb .btn.ghost{background:transparent;color:#f4f1fa;border-color:rgba(255,255,255,.3)}
+.msg{font-size:13px;opacity:.85;min-height:1.2em;text-align:center;max-width:46ch;margin:0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="petals" aria-hidden="true"></div>
+<main class="wrap">
+  <header>
+    <div class="logo"><img src="logo.webp" alt="Logo do Centro de Convivência Santa Dorotéia" width="440" height="492"></div>
+    <div class="title">
+      <h1 aria-label="25 anos"><span class="n25">25</span><span class="anos">anos</span></h1>
+      <p class="org">Centro de Convivência Santa Dorotéia</p>
+      <p class="sub"><span class="count">127 fotos.</span> Toque em uma foto para ver em tela cheia e baixar na qualidade original.</p>
+      <div class="actions">
+        <a class="btn primary" id="all" href="https://github.com/dudasilva121513-arch/ccsd25/releases/download/fotos/CCSD25_todas_as_fotos.zip" download>Baixar todas as fotos</a>
+        <p class="hint">Arquivo .zip com as 127 fotos (354 MB). Melhor baixar no Wi‑Fi.</p>
+      </div>
+    </div>
+  </header>
+  <section class="feat" id="feat" aria-label="Fotos em destaque"></section>
+  <h2 class="sec">Mais fotos</h2>
+  <section class="grid" id="grid" aria-label="Fotos do espetáculo"></section>
+  <footer>25 anos do Centro de Convivência Santa Dorotéia</footer>
+</main>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+  <div class="lb-top"><span class="lb-n" id="lb-n"></span><button class="close" id="close" type="button" aria-label="Fechar">×</button></div>
+  <div class="lb-stage"><button class="nav prev" id="prev" type="button" aria-label="Foto anterior">‹</button><img id="lb-img" alt=""><button class="nav next" id="next" type="button" aria-label="Próxima foto">›</button></div>
+  <div class="lb-bottom">
+    <a class="btn" id="dl" href="#" download>Baixar foto</a>
+    <a class="btn ghost" id="orig" href="#" target="_blank" rel="noopener" hidden>Abrir em tamanho original</a>
+    <p class="msg" id="msg"></p>
+  </div>
+</div>
+<script>
+var P=[{"f":"CCSD25_001.png","n":1,"w":427,"h":640,"d":1,"s":1858523},{"f":"CCSD25_002.png","n":2,"w":427,"h":640,"d":1,"s":1878574},{"f":"CCSD25_003.png","n":3,"w":427,"h":640,"d":1,"s":2309166},{"f":"CCSD25_004.png","n":4,"w":427,"h":640,"d":1,"s":1996653},{"f":"CCSD25_005.jpg","n":5,"w":640,"h":427,"d":0,"s":2532177},{"f":"CCSD25_006.jpg","n":6,"w":640,"h":427,"d":0,"s":1588654},{"f":"CCSD25_007.jpg","n":7,"w":640,"h":427,"d":0,"s":2512130},{"f":"CCSD25_008.jpg","n":8,"w":640,"h":427,"d":0,"s":2103207},{"f":"CCSD25_009.jpg","n":9,"w":640,"h":427,"d":0,"s":2521689},{"f":"CCSD25_010.jpg","n":10,"w":640,"h":427,"d":0,"s":2383270},{"f":"CCSD25_011.jpg","n":11,"w":640,"h":427,"d":0,"s":1774602},{"f":"CCSD25_012.jpg","n":12,"w":640,"h":427,"d":0,"s":6069028},{"f":"CCSD25_013.jpg","n":13,"w":640,"h":427,"d":0,"s":7826018},{"f":"CCSD25_014.jpg","n":14,"w":640,"h":427,"d":0,"s":2118072},{"f":"CCSD25_015.jpg","n":15,"w":640,"h":427,"d":0,"s":1622695},{"f":"CCSD25_016.jpg","n":16,"w":640,"h":427,"d":0,"s":1384696},{"f":"CCSD25_017.jpg","n":17,"w":640,"h":427,"d":0,"s":2532768},{"f":"CCSD25_018.jpg","n":18,"w":640,"h":427,"d":0,"s":1912154},{"f":"CCSD25_019.jpg","n":19,"w":640,"h":427,"d":0,"s":1663139},{"f":"CCSD25_020.jpg","n":20,"w":427,"h":640,"d":0,"s":8315463},{"f":"CCSD25_021.jpg","n":21,"w":640,"h":427,"d":0,"s":1847186},{"f":"CCSD25_022.jpg","n":22,"w":427,"h":640,"d":0,"s":1885527},{"f":"CCSD25_023.jpg","n":23,"w":640,"h":427,"d":0,"s":2447417},{"f":"CCSD25_024.jpg","n":24,"w":640,"h":427,"d":0,"s":2005839},{"f":"CCSD25_025.jpg","n":25,"w":640,"h":427,"d":0,"s":2368555},{"f":"CCSD25_026.jpg","n":26,"w":640,"h":427,"d":0,"s":5832181},{"f":"CCSD25_027.jpg","n":27,"w":640,"h":427,"d":0,"s":2169904},{"f":"CCSD25_028.jpg","n":28,"w":640,"h":427,"d":0,"s":2503700},{"f":"CCSD25_029.jpg","n":29,"w":640,"h":427,"d":0,"s":1939596},{"f":"CCSD25_030.jpg","n":30,"w":427,"h":640,"d":0,"s":3872322},{"f":"CCSD25_031.jpg","n":31,"w":640,"h":427,"d":0,"s":2122582},{"f":"CCSD25_032.jpg","n":32,"w":427,"h":640,"d":0,"s":2042942},{"f":"CCSD25_033.jpg","n":33,"w":427,"h":640,"d":0,"s":1394293},{"f":"CCSD25_034.jpg","n":34,"w":427,"h":640,"d":0,"s":2539312},{"f":"CCSD25_035.jpg","n":35,"w":427,"h":640,"d":0,"s":2003028},{"f":"CCSD25_036.jpg","n":36,"w":427,"h":640,"d":0,"s":2327178},{"f":"CCSD25_037.jpg","n":37,"w":427,"h":640,"d":0,"s":3069255},{"f":"CCSD25_038.jpg","n":38,"w":640,"h":427,"d":0,"s":5611813},{"f":"CCSD25_039.jpg","n":39,"w":640,"h":427,"d":0,"s":2432726},{"f":"CCSD25_040.jpg","n":40,"w":640,"h":427,"d":0,"s":2241572},{"f":"CCSD25_041.jpg","n":41,"w":640,"h":427,"d":0,"s":2279247},{"f":"CCSD25_042.jpg","n":42,"w":640,"h":427,"d":0,"s":2343784},{"f":"CCSD25_043.jpg","n":43,"w":640,"h":427,"d":0,"s":1667980},{"f":"CCSD25_044.jpg","n":44,"w":427,"h":640,"d":0,"s":1864601},{"f":"CCSD25_045.jpg","n":45,"w":427,"h":640,"d":0,"s":5574903},{"f":"CCSD25_046.jpg","n":46,"w":640,"h":427,"d":0,"s":5811257},{"f":"CCSD25_047.jpg","n":47,"w":640,"h":425,"d":0,"s":2501811},{"f":"CCSD25_048.jpg","n":48,"w":640,"h":427,"d":0,"s":7247449},{"f":"CCSD25_049.jpg","n":49,"w":640,"h":427,"d":0,"s":2744599},{"f":"CCSD25_050.jpg","n":50,"w":640,"h":427,"d":0,"s":2729347},{"f":"CCSD25_051.jpg","n":51,"w":427,"h":640,"d":0,"s":1610979},{"f":"CCSD25_052.jpg","n":52,"w":640,"h":394,"d":0,"s":3479061},{"f":"CCSD25_053.jpg","n":53,"w":427,"h":640,"d":0,"s":1998014},{"f":"CCSD25_054.jpg","n":54,"w":640,"h":427,"d":0,"s":2880084},{"f":"CCSD25_055.jpg","n":55,"w":427,"h":640,"d":0,"s":2023358},{"f":"CCSD25_056.jpg","n":56,"w":427,"h":640,"d":0,"s":993590},{"f":"CCSD25_057.jpg","n":57,"w":640,"h":427,"d":0,"s":2029874},{"f":"CCSD25_058.jpg","n":58,"w":640,"h":437,"d":0,"s":3091026},{"f":"CCSD25_059.jpg","n":59,"w":427,"h":640,"d":0,"s":1862800},{"f":"CCSD25_060.jpg","n":60,"w":640,"h":427,"d":0,"s":2675953},{"f":"CCSD25_061.jpg","n":61,"w":640,"h":427,"d":0,"s":7662077},{"f":"CCSD25_062.jpg","n":62,"w":640,"h":427,"d":0,"s":2219036},{"f":"CCSD25_063.jpg","n":63,"w":427,"h":640,"d":0,"s":2258863},{"f":"CCSD25_064.jpg","n":64,"w":640,"h":427,"d":0,"s":1622600},{"f":"CCSD25_065.jpg","n":65,"w":640,"h":427,"d":0,"s":9637895},{"f":"CCSD25_066.jpg","n":66,"w":640,"h":427,"d":0,"s":2350453},{"f":"CCSD25_067.jpg","n":67,"w":640,"h":427,"d":0,"s":2444926},{"f":"CCSD25_068.jpg","n":68,"w":640,"h":427,"d":0,"s":2013009},{"f":"CCSD25_069.jpg","n":69,"w":427,"h":640,"d":0,"s":2018642},{"f":"CCSD25_070.jpg","n":70,"w":640,"h":427,"d":0,"s":2010619},{"f":"CCSD25_071.jpg","n":71,"w":640,"h":427,"d":0,"s":1895512},{"f":"CCSD25_072.jpg","n":72,"w":640,"h":427,"d":0,"s":3870899},{"f":"CCSD25_073.jpg","n":73,"w":640,"h":427,"d":0,"s":3174370},{"f":"CCSD25_074.jpg","n":74,"w":640,"h":427,"d":0,"s":994391},{"f":"CCSD25_075.jpg","n":75,"w":640,"h":427,"d":0,"s":1203991},{"f":"CCSD25_076.jpg","n":76,"w":640,"h":427,"d":0,"s":2169324},{"f":"CCSD25_077.jpg","n":77,"w":640,"h":427,"d":0,"s":2204439},{"f":"CCSD25_078.jpg","n":78,"w":427,"h":640,"d":0,"s":2211978},{"f":"CCSD25_079.jpg","n":79,"w":427,"h":640,"d":0,"s":1566676},{"f":"CCSD25_080.jpg","n":80,"w":427,"h":640,"d":0,"s":1672128},{"f":"CCSD25_081.jpg","n":81,"w":640,"h":427,"d":0,"s":2557489},{"f":"CCSD25_082.jpg","n":82,"w":427,"h":640,"d":0,"s":1409166},{"f":"CCSD25_083.jpg","n":83,"w":640,"h":427,"d":0,"s":2338449},{"f":"CCSD25_084.jpg","n":84,"w":640,"h":427,"d":0,"s":5208715},{"f":"CCSD25_085.jpg","n":85,"w":427,"h":640,"d":0,"s":2176075},{"f":"CCSD25_086.jpg","n":86,"w":640,"h":427,"d":0,"s":1943483},{"f":"CCSD25_087.jpg","n":87,"w":640,"h":427,"d":0,"s":1774280},{"f":"CCSD25_088.jpg","n":88,"w":640,"h":427,"d":0,"s":2659848},{"f":"CCSD25_089.jpg","n":89,"w":640,"h":427,"d":0,"s":2474647},{"f":"CCSD25_090.jpg","n":90,"w":427,"h":640,"d":0,"s":1488840},{"f":"CCSD25_091.jpg","n":91,"w":640,"h":427,"d":0,"s":1501356},{"f":"CCSD25_092.jpg","n":92,"w":640,"h":427,"d":0,"s":1686566},{"f":"CCSD25_093.jpg","n":93,"w":640,"h":427,"d":0,"s":2793830},{"f":"CCSD25_094.jpg","n":94,"w":640,"h":427,"d":0,"s":1897890},{"f":"CCSD25_095.jpg","n":95,"w":640,"h":548,"d":0,"s":2973221},{"f":"CCSD25_096.jpg","n":96,"w":427,"h":640,"d":0,"s":2316219},{"f":"CCSD25_097.jpg","n":97,"w":427,"h":640,"d":0,"s":8391556},{"f":"CCSD25_098.jpg","n":98,"w":427,"h":640,"d":0,"s":5779457},{"f":"CCSD25_099.jpg","n":99,"w":640,"h":427,"d":0,"s":2190478},{"f":"CCSD25_100.jpg","n":100,"w":640,"h":427,"d":0,"s":1949654},{"f":"CCSD25_101.jpg","n":101,"w":640,"h":427,"d":0,"s":6478336},{"f":"CCSD25_102.jpg","n":102,"w":427,"h":640,"d":0,"s":2027824},{"f":"CCSD25_103.jpg","n":103,"w":427,"h":640,"d":0,"s":1559532},{"f":"CCSD25_104.jpg","n":104,"w":459,"h":640,"d":0,"s":4234817},{"f":"CCSD25_105.jpg","n":105,"w":427,"h":640,"d":0,"s":2168847},{"f":"CCSD25_106.jpg","n":106,"w":640,"h":427,"d":0,"s":7609626},{"f":"CCSD25_107.jpg","n":107,"w":640,"h":427,"d":0,"s":2340081},{"f":"CCSD25_108.jpg","n":108,"w":640,"h":427,"d":0,"s":2764589},{"f":"CCSD25_109.jpg","n":109,"w":640,"h":427,"d":0,"s":2267817},{"f":"CCSD25_110.jpg","n":110,"w":640,"h":427,"d":0,"s":1637367},{"f":"CCSD25_111.jpg","n":111,"w":640,"h":427,"d":0,"s":1930638},{"f":"CCSD25_112.jpg","n":112,"w":640,"h":427,"d":0,"s":2656763},{"f":"CCSD25_113.jpg","n":113,"w":427,"h":640,"d":0,"s":3140146},{"f":"CCSD25_114.jpg","n":114,"w":640,"h":427,"d":0,"s":2824273},{"f":"CCSD25_115.jpg","n":115,"w":640,"h":427,"d":0,"s":2274826},{"f":"CCSD25_116.jpg","n":116,"w":427,"h":640,"d":0,"s":6048752},{"f":"CCSD25_117.jpg","n":117,"w":427,"h":640,"d":0,"s":5832029},{"f":"CCSD25_118.jpg","n":118,"w":427,"h":640,"d":0,"s":4737720},{"f":"CCSD25_119.jpg","n":119,"w":427,"h":640,"d":0,"s":5970716},{"f":"CCSD25_120.jpg","n":120,"w":427,"h":640,"d":0,"s":1634826},{"f":"CCSD25_121.jpg","n":121,"w":640,"h":427,"d":0,"s":2161123},{"f":"CCSD25_122.jpg","n":122,"w":427,"h":640,"d":0,"s":1623698},{"f":"CCSD25_123.jpg","n":123,"w":640,"h":427,"d":0,"s":2511365},{"f":"CCSD25_124.jpg","n":124,"w":640,"h":427,"d":0,"s":1208325},{"f":"CCSD25_125.jpg","n":125,"w":640,"h":427,"d":0,"s":2949859},{"f":"CCSD25_126.jpg","n":126,"w":427,"h":640,"d":0,"s":6575015},{"f":"CCSD25_127.jpg","n":127,"w":640,"h":427,"d":0,"s":6126388}];
+var isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+var feat=document.getElementById('feat'),grid=document.getElementById('grid');
+function pad(n){return String(n).padStart(3,'0')}
+function tile(p,i){return '<button class="tile" type="button" data-i="'+i+'" aria-label="Abrir foto '+p.n+'"><img src="mini/'+pad(p.n)+'.jpg" alt="Foto '+p.n+' do espetáculo" width="'+p.w+'" height="'+p.h+'" loading="'+(p.d?'eager':'lazy')+'" decoding="async"></button>'}
+var f=[],r=[];P.forEach(function(p,i){(p.d?f:r).push(tile(p,i))});feat.innerHTML=f.join('');grid.innerHTML=r.join('');
+function onTile(e){var b=e.target.closest('.tile');if(b)open(+b.dataset.i)}
+feat.addEventListener('click',onTile);grid.addEventListener('click',onTile);
+var lb=document.getElementById('lb'),img=document.getElementById('lb-img'),dl=document.getElementById('dl'),orig=document.getElementById('orig'),msg=document.getElementById('msg'),cur=0,blob=null,blobFor=-1;
+function open(i){lb.hidden=false;document.body.style.overflow='hidden';show(i);dl.focus()}
+function close(){lb.hidden=true;document.body.style.overflow=''}
+function show(i){cur=(i+P.length)%P.length;var p=P[cur];
+  img.src='tela/'+pad(p.n)+'.jpg';img.alt='Foto '+p.n+' do espetáculo';
+  document.getElementById('lb-n').textContent=(cur+1)+' / '+P.length;
+  dl.href='fotos/'+p.f;dl.setAttribute('download',p.f);orig.href='fotos/'+p.f;
+  orig.hidden=!isIOS;msg.textContent=isIOS?'No iPhone: toque em "Baixar foto" e escolha "Salvar imagem" para ir direto para o app Fotos.':'';
+  blob=null;blobFor=-1;
+  if(isIOS&&navigator.canShare){var want=cur;fetch('fotos/'+p.f).then(function(r){return r.blob()}).then(function(b){if(want===cur){blob=b;blobFor=want}}).catch(function(){})}
+}
+dl.addEventListener('click',function(e){
+  if(!isIOS||!navigator.canShare)return; // Android e computador: download normal
+  var p=P[cur];
+  if(blob&&blobFor===cur){
+    var file=new File([blob],p.f,{type:blob.type||'image/jpeg'});
+    if(navigator.canShare({files:[file]})){e.preventDefault();
+      navigator.share({files:[file]}).then(function(){msg.textContent='Pronto! Se escolheu "Salvar imagem", a foto está no app Fotos.'}).catch(function(err){if(err&&err.name!=='AbortError')location.href='fotos/'+p.f})}
+  }else{e.preventDefault();msg.textContent='Preparando a foto em alta qualidade… toque de novo em um instante.'}
+});
+document.getElementById('close').onclick=close;
+document.getElementById('prev').onclick=function(){show(cur-1)};
+document.getElementById('next').onclick=function(){show(cur+1)};
+document.addEventListener('keydown',function(e){if(lb.hidden)return;if(e.key==='Escape')close();else if(e.key==='ArrowRight')show(cur+1);else if(e.key==='ArrowLeft')show(cur-1)});
+var sx=null;lb.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+lb.addEventListener('touchend',function(e){if(sx==null)return;var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>50)show(cur+(dx<0?1:-1));sx=null});
+</script>
+</body>
+</html>
